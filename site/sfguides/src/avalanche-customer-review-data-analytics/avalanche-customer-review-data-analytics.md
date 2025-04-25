@@ -72,11 +72,11 @@ Then, in the top-right hand corner click on the blue "+ Files" button. Followed 
 
 You'll see a modal pop-up where you can upload the 100 DOCX files:
 
-![image](assets/upload-stage.PNG)
+![image](assets/upload-files.PNG)
 
 Afterwards, you'll see the files listed in the main panel. Also make note of the previously mentioned hierarchical list of the database, schema and stage that we navigated through:
 
-![image](assets/upload-files.PNG)
+![image](assets/upload-stage.PNG)
 
 
 ### List contents of a stage
