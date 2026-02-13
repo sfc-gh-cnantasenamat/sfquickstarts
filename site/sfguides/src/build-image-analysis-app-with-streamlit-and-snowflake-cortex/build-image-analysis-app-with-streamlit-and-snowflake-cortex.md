@@ -1,7 +1,7 @@
 author: Chanin Nantasenamat
 id: build-image-analysis-app-with-streamlit-and-snowflake-cortex
 summary: Build an image analysis application using Snowflake Cortex AI_COMPLETE with multimodal capabilities to analyze, describe, and extract information from images.
-categories: snowflake-site:taxonomy/solution-center/certification/quickstart,snowflake-site:taxonomy/product/ai,snowflake-site:taxonomy/snowflake-feature/cortex-llm-functions,snowflake-site:taxonomy/snowflake-feature/unstructured-data-analysis
+categories: snowflake-site:taxonomy/solution-center/certification/quickstart,snowflake-site:taxonomy/product/ai
 language: en
 environments: web
 status: Published
