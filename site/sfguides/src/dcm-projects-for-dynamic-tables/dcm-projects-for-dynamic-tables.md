@@ -62,6 +62,7 @@ In this step, you'll create a Snowsight Workspace linked to the sample DCM Proje
 
 Once the workspace is created, you'll see the repository files in the file explorer. Navigate to **Quickstarts/dcm-projects-for-dynamic-tables** to find two directories:
 
+
 - **`DCM_Projects_DT_Lifecycle/`** — The DCM Project itself (manifest, definitions, macros). This is what DCM reads during Plan & Deploy.
 - **`scripts/`** — Numbered SQL files that you'll run in Snowsight worksheets at different stages of this guide. These live outside the DCM project directory so they don't interfere with it.
 
