@@ -70,7 +70,6 @@ A complete agent optimization workflow:
 ### Prerequisites
 
 - Basic familiarity with Snowflake SQL and Cortex Agents
-- Python 3.8+ (for Cortex Code CLI installation)
 
 <!-- ------------------------ -->
 
@@ -78,19 +77,21 @@ A complete agent optimization workflow:
 
 Cortex Code is an AI-powered CLI that you'll use throughout this guide to mine agent logs, run evaluations, analyze failures, and generate improved agent instructions.
 
-Install it via pip:
+**Linux / macOS / WSL:**
 
 ```bash
-pip install snowflake-cli
+curl -LsS https://ai.snowflake.com/static/cc-scripts/install.sh | sh
 ```
 
-Verify the installation:
+**Windows (PowerShell):**
 
-```bash
-cortex --version
+```powershell
+irm https://ai.snowflake.com/static/cc-scripts/install.ps1 | iex
 ```
 
-For detailed setup instructions, see the [Cortex Code docs](https://docs.snowflake.com/en/developer-guide/cortex-code/cortex-code).
+After installation, run `cortex` to launch the setup wizard — it will guide you through connecting to your Snowflake account.
+
+For detailed setup instructions, see the [Cortex Code CLI docs](https://docs.snowflake.com/en/user-guide/cortex-code/cortex-code-cli).
 
 <!-- ------------------------ -->
 
@@ -309,7 +310,7 @@ Congratulations! You've built a self-improving AI agent workflow — deploying a
 - [Agent GPA Paper](https://bit.ly/agent-gpa)
 - [Cortex Agent Evals Guide](https://bit.ly/cortex-agent-evals)
 - [DeepLearning.AI Course](https://bit.ly/deeplearning-agent-gpa)
-- [Cortex Code Docs](https://bit.ly/cortex-code-docs)
+- [Cortex Code CLI Docs](https://docs.snowflake.com/en/user-guide/cortex-code/cortex-code-cli)
 
 ### Cleanup
 
