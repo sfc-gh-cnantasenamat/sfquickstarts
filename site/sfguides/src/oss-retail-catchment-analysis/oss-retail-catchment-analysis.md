@@ -4,7 +4,7 @@ categories: snowflake-site:taxonomy/solution-center/certification/quickstart, sn
 language: en
 summary: Build a Retail Catchment Analysis application using OpenRouteService and Carto Overture Maps. Deploy a Streamlit app that analyzes store catchment zones with isochrones, identifies competitors, and visualizes address density using H3 hexagons.
 environments: web
-status: Published
+status: Archived
 feedback link: https://github.com/Snowflake-Labs/sfguides/issues
 fork repo link: https://github.com/Snowflake-Labs/sfguide-create-a-route-optimisation-and-vehicle-route-plan-simulator
 

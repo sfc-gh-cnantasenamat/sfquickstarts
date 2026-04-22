@@ -4,7 +4,7 @@ categories: snowflake-site:taxonomy/solution-center/certification/quickstart, sn
 language: en
 summary: Deploy a Snowflake Intelligence Agent for AI-powered route planning using OpenRouteService. Create a conversational assistant that handles directions, isochrones, and multi-stop delivery optimization - all with natural language location input and Cortex AI geocoding.
 environments: web
-status: Published
+status: Archived
 feedback link: https://github.com/Snowflake-Labs/sfguides/issues
 fork repo link: https://github.com/Snowflake-Labs/sfguide-create-a-route-optimisation-and-vehicle-route-plan-simulator
 
