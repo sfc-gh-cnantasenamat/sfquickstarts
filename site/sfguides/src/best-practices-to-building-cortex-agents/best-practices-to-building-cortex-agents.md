@@ -655,7 +655,7 @@ Create a representative “golden” test set of questions, expected tool use, a
 
 ### Stage 2: Iteration and evaluation
 
-Use the Snowflake Monitoring UI and [Cortex Agent Evaluations](https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents#evaluation) (generally available) to identify which queries the agent handles incorrectly or too slowly. Agent traces show planning, tool use, and generation steps so you can pinpoint exactly where things went wrong. Before you begin, *ensure you have [AI Observability permissions](https://docs.snowflake.com/en/user-guide/snowflake-cortex/ai-observability/reference#required-privileges) set up properly.*
+Use the Snowflake Monitoring UI and [Cortex Agent Evaluations](https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents#evaluation) (generally available) to identify which queries the agent handles incorrectly or too slowly. Agent traces show planning, tool use, and generation steps so you can pinpoint exactly where things went wrong.
 
 After your agent performs well against your golden set, it’s ready for production.
 
