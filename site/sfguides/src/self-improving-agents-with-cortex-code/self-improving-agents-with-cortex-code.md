@@ -119,35 +119,47 @@ Open the agent in Snowflake Intelligence:
 
 The agent is deployed as VERSION$1. Your goal is to generate a mix of successful and failing traces by asking progressively harder questions. Copy-paste these one at a time:
 
-### Simple queries (agent should handle these well)
+### Simple queries
 
-- `What is the total spend across all campaigns?`
-- `What content was used in the Summer Sale campaign?`
-- `Which campaign had the highest ROI?`
+```
+What is the total spend across all campaigns?
+```
 
-### Multi-tool queries (requires 3+ tools — agent will miss steps)
+```
+What content was used in the Summer Sale campaign?
+```
 
-- `Which campaign had the highest ROI and what did customers say about it? Generate a report for that campaign too.`
-- `Find our worst performing campaigns, look up what customers complained about, compare to industry benchmarks, and recommend fixes`
+```
+Which campaign had the highest ROI?
+```
 
-### Complex synthesis queries (agent won't know where to start)
+### Multi-tool queries
 
-- `For each of our top 5 campaigns by revenue, show me the customer feedback and whether the A/B test results support scaling them up`
-- `Build me a quarterly business review — top campaigns, underperformers, customer sentiment trends, and how we stack up against competitors`
+```
+Which campaign had the highest ROI and what did customers say about it? Generate a report for that campaign too.
+```
 
-Notice the patterns: simple queries work fine, but the agent fails on multi-tool coordination and complex synthesis. These traces are now logged and ready to mine.
+```
+Find our worst performing campaigns, look up what customers complained about, compare to industry benchmarks, and recommend fixes
+```
+
+### Complex synthesis queries
+
+```
+For each of our top 5 campaigns by revenue, show me the customer feedback and whether the A/B test results support scaling them up
+```
+
+```
+Build me a quarterly business review — top campaigns, underperformers, customer sentiment trends, and how we stack up against competitors
+```
+
+These traces are now logged and ready to mine.
 
 <!-- ------------------------ -->
 
 ## Curate an Eval Dataset from Logs
 
-Now open Cortex Code to mine the agent's interaction logs and curate an evaluation dataset:
-
-```bash
-cortex --bypass
-```
-
-Then enter the following prompt:
+Open Cortex Code and enter `/bypass` to enable bypass mode, then enter the following prompt:
 
 ```
 Use the dataset-curation skill to pull observability traces for
