@@ -266,8 +266,7 @@ Start the task:
 EXECUTE TASK AI_OBSERVABILITY_RUN_TASK_1;
 ```
 
-aside positive
-To help avoid unexpected regressions due to LLM changes, pin a specific model for orchestration rather than choosing `auto`. This ensures the LLM used is the one you have determined best for your use case.
+> To help avoid unexpected regressions due to LLM changes, pin a specific model for orchestration rather than choosing `auto`. This ensures the LLM used is the one you have determined best for your use case.
 
 <!-- ------------------------ -->
 ## Production Observability

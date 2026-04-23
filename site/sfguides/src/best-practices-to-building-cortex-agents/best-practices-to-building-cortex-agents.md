@@ -2,7 +2,7 @@
 id: best-practices-to-building-cortex-agents
 language: en
 summary: Learn how to build, deploy, and monitor high-quality Cortex Agents in Snowflake Intelligence, following best practices for orchestration, tooling, and evaluation.
-author: ShenWang, Tyler Richards, Krista Muir, Josh Reini, James Cha-Earley
+author: Shen Wang, Tyler Richards, Krista Rockson, Josh Reini, James Cha-Earley
 categories: snowflake-site:taxonomy/solution-center/certification/quickstart
 environments: web
 open in snowflake link: https://app.snowflake.com/_deeplink/#/agents?utm_source=snowflake-devrel&utm_medium=developer-guides&utm_content=best-practices-to-building-cortex-agents&utm_cta=developer-guides-deeplink
@@ -616,7 +616,7 @@ The process of deploying agents is similar to developer cycles, with three key s
 2. Using systematic tests to drive iteration and improvement.
 3. Graduating to a production agent.
 
-👉 *For a deep dive into evaluation, versioning, CI/CD, and monitoring best practices, see [Best Practices for Evaluating Cortex Agents](https://www.snowflake.com/en/developers/guides/best-practices-to-evaluating-cortex-agents/).*
+👉 *For a deep dive into evaluation, versioning, CI/CD, and monitoring best practices, see [Best Practices for Evaluating Cortex Agents](https://www.snowflake.com/en/developers/guides/best-practices-for-evaluating-cortex-agents/).*
 
 ### Use agent versioning to structure your deployment lifecycle
 
@@ -655,7 +655,7 @@ Create a representative “golden” test set of questions, expected tool use, a
 
 ### Stage 2: Iteration and evaluation
 
-Use the Snowflake Monitoring UI and [Cortex Agent Evaluations](https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents#evaluation) (generally available) to identify which queries the agent handles incorrectly or too slowly. Agent traces show planning, tool use, and generation steps so you can pinpoint exactly where things went wrong. Before you begin, *ensure you have [AI Observability permissions](https://docs.snowflake.com/en/user-guide/snowflake-cortex/ai-observability/reference#required-privileges) set up properly.*
+Use the Snowflake Monitoring UI and [Cortex Agent Evaluations](https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents#evaluation) (generally available) to identify which queries the agent handles incorrectly or too slowly. Agent traces show planning, tool use, and generation steps so you can pinpoint exactly where things went wrong.
 
 After your agent performs well against your golden set, it’s ready for production.
 
