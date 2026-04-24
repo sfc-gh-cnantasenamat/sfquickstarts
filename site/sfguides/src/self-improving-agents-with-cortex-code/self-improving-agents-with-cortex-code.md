@@ -183,13 +183,7 @@ Run Agent GPA on your curated dataset. Enter this prompt in Cortex Code:
 
 ```
 Run an evaluation for SELF_IMPROVING_AGENT_DB.AGENTS.MARKETING_CAMPAIGNS_AGENT
-against the registered dataset.
-```
-
-Once the eval completes, analyze the results:
-
-```
-Show me the evaluation results. Break down scores by metric and
+against the registered dataset. Once the eval completes, show me the evaluation results. Break down scores by metric and
 identify which queries scored lowest. What are the common failure patterns?
 ```
 
