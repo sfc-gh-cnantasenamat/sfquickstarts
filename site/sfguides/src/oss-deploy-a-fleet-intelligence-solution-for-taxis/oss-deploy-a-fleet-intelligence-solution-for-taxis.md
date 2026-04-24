@@ -10,7 +10,11 @@ fork repo link: https://github.com/Snowflake-Labs/sfguide-create-a-route-optimis
 
 # Deploy Fleet Intelligence Solution for Taxis
 
-> 🚖 **Track. Analyze. Optimize.** Build a real-time taxi fleet control center with AI-powered insights - powered by OpenRouteService in Snowflake.
+> Note: This guide is no longer maintained and will not work.
+The content has been consolidated into a single comprehensive quickstart.
+Please see [Build Routing Solution in Snowflake with Cortex Code](https://www.snowflake.com/en/developers/guides/oss-install-openrouteservice-native-app/) for the latest version.
+
+🚖 **Track. Analyze. Optimize.** Build a real-time taxi fleet control center with AI-powered insights - powered by OpenRouteService in Snowflake.
 
 <!-- ------------------------ -->
 ## Overview 

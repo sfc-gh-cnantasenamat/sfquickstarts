@@ -10,7 +10,11 @@ fork repo link: https://github.com/Snowflake-Labs/sfguide-create-a-route-optimis
 
 # Deploy Snowflake Intelligence Routing Agent
 
-> 🤖 **Ask. Route. Optimize.** Build an AI-powered route planning assistant that understands natural language locations - powered by OpenRouteService and Snowflake Intelligence.
+> Note: This guide is no longer maintained and will not work.
+The content has been consolidated into a single comprehensive quickstart.
+Please see [Build Routing Solution in Snowflake with Cortex Code](https://www.snowflake.com/en/developers/guides/oss-install-openrouteservice-native-app/) for the latest version.
+
+🤖 **Ask. Route. Optimize.** Build an AI-powered route planning assistant that understands natural language locations - powered by OpenRouteService and Snowflake Intelligence.
 
 <!-- ------------------------ -->
 ## Overview 
