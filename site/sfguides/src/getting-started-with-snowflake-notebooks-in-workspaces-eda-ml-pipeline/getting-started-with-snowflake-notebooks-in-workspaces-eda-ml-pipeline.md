@@ -211,13 +211,14 @@ multiple UNION ALL subqueries.
 
 ```sql
 %%sql -r df_class_dist
+-- Class distribution
 SELECT
-    cultivar,
-    cultivar_name,
+    "cultivar",
+    "cultivar_name",
     COUNT(*) AS sample_count
 FROM {{df_snow}}
-GROUP BY cultivar, cultivar_name
-ORDER BY cultivar
+GROUP BY "cultivar", "cultivar_name"
+ORDER BY "cultivar"
 ```
 
 This query confirms whether the dataset is balanced across the three Wine cultivar classes (0, 1, 2).
